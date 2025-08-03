@@ -15,12 +15,12 @@ struct PageControlView: View {
         HStack(spacing: 8) {
             ForEach(0..<totalCount, id: \.self) { index in
                 Circle()
-                    .fill(index == currentIndex ? Color.blue : Color.gray.opacity(0.4))
+                    .fill(index == currentIndex ? DesignConstants.Colors.primaryBlue : DesignConstants.Colors.secondaryGray)
                     .frame(width: 8, height: 8)
                     .scaleEffect(index == currentIndex ? 1.2 : 1.0)
-                    .animation(.spring(response: 0.3, dampingFraction: 0.8), value: currentIndex)
             }
         }
+        .animation(.easeInOut(duration: 0.3), value: currentIndex)
         .padding(.top, 20)
     }
 }
