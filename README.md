@@ -2,6 +2,13 @@
 
 A smooth, interactive image carousel built with SwiftUI
 
+## Demo
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e4c50251-7be0-4772-8d8d-b1d357e67fa1" alt="Carousel Demo" width="300">
+</div>
+<p align="center"><em>Carousel Animation</em></p>
+
+
 ## What I Built
 
 This is a destination carousel app that lets users swipe through different travel destinations. The main focus was creating a really smooth user experience with proper animations and responsive gestures.
